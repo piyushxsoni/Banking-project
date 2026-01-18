@@ -1,4 +1,19 @@
-# Banking Management System
-The purpose of this repository to manage a user bank account and also generate a new random account number .
-<br>
-Author - Piyush Soni
+# 🏦 Bank Management System (Python + Streamlit)
+
+A Python-based Bank Management System with a user-friendly web interface built using Streamlit.  
+This project allows users to manage bank accounts with basic operations.
+
+## Features
+- Create new bank accounts
+- Deposit money
+- Withdraw money
+- View account details
+- Update user information
+- Delete bank account
+- Data stored persistently using JSON
+
+## Technologies Used
+- Python
+- Streamlit
+- JSON (for data storage)
+- OOP concepts
