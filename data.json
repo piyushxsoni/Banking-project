@@ -1,0 +1,26 @@
+[
+    {
+        "name": " piyush soni",
+        "age": 21,
+        "email": "piyushson1231@gmail.com",
+        "pin": 1234,
+        "accountNo": "53ZH1H7#",
+        "balance": 5000
+    },
+    {
+        "name": "piyush soni",
+        "age": 20,
+        "email": "piyushsoni@gmail.com",
+        "pin": 2314,
+        "accountNo": "4G99VV^7",
+        "balance": 0
+    },
+    {
+        "name": "satyam yadav",
+        "age": 19,
+        "email": "satyamyadav@gmail.com",
+        "pin": 2343,
+        "accountNo": "Y34X9H3$",
+        "balance": 0
+    }
+]
