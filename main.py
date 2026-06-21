@@ -29,8 +29,16 @@ elif menu == "Deposit Money":
     acc_no = st.text_input("Account Number")
     pin = st.text_input("PIN", type="password")
     amount = st.number_input("Amount", min_value=1)
+
     if st.button("Deposit"):
-        st.success(bank.deposit_money(acc_no, int(pin), int(amount))["msg"])
+        if pin:
+            result = bank.deposit_money(acc_no, int(pin), int(amount))
+            if result["status"]:
+                st.success(result["msg"])
+            else:
+                st.error(result["msg"])
+        else:
+            st.error("Enter PIN")
 
 elif menu == "Withdraw Money":
     acc_no = st.text_input("Account Number")
