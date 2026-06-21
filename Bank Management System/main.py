@@ -1,5 +1,5 @@
 import streamlit as st
-from gptcode import Bank
+from Bank import Bank
 
 bank = Bank()
 
